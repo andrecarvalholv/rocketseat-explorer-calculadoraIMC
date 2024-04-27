@@ -7,6 +7,8 @@ const inputTextHeight = document.querySelector('#height-imc')
 const buttonImc = document.querySelector('#calculate-button')
 
 buttonImc.addEventListener('click', calculateIMC)
+inputTextWeight.oninput = () => Alert.removeError()
+inputTextHeight.oninput = () => Alert.removeError()
 
 function calculateIMC(event) {
     event.preventDefault()
