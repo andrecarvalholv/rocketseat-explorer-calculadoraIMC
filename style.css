@@ -87,11 +87,10 @@ h1 {
     line-height: 2.0rem;
     color:rgba(73, 80, 87, 0.5);
 }
-/* NÃO FUNCIONA
+
 .input-wrapper input:focus {
-    border-color: #02799D !important;
+    outline: 2px solid #02799D;
 }
-*/
 
 form button {
     font-size: 1.6rem;
